@@ -1,0 +1,55 @@
+html[lang=ar] * {
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+html[lang=ar] .submit-property .btn {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+html[lang=ar] .navbar-lang-switcher {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+html[lang=ar] .lb-right-box {
+    left: auto;
+    right: 12px;
+    display: flex;
+    align-items: center;
+}
+
+html[lang=ar] .lb-left-box {
+    right: auto;
+    left: 10px;
+}
+
+html[lang=ar] .lb-right-box svg {
+    margin-right: 0;
+    margin-left: 2px;
+}
+
+html[lang=ar] .css-14el2xx-placeholder {
+    text-align: right;
+}
+
+html[lang=ar] .location-input {
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+html[lang=ar] .ifb-bottom .area-size-box,
+html[lang=ar] .ifb-bottom .price-box,
+html[lang=ar] .ifb-bottom .beds-box,
+html[lang=ar] .filter-property-type {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+html[lang=ar] .ifb-bottom .beds-box {
+    margin-left: 0;
+}
+
+html[lang=ar] .page-nav li a i svg {
+    transform: rotateY(180deg);
+}

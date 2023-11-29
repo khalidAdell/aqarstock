@@ -1,0 +1,505 @@
+@media (max-width: 768px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .user-form-box {
+        padding: 10px;
+    }
+
+    .user-features {
+        height: auto;
+        padding: 30px 10px;
+    }
+
+    .user-feature-card {
+        width: 100%;
+    }
+
+    section.sign-section .row.g-0 {
+        flex-direction: column-reverse;
+    }
+
+    .user-features .users-features-title {
+        font-size: 26px;
+        line-height: 39px;
+    }
+
+    .register-form .user-sign-social {
+        width: 100%;
+    }
+
+    .user-features .users-features-subtitle {
+        font-size: 17px;
+    }
+
+    .login-form.login-only.register-form {
+        max-width: 100%;
+    }
+
+    .user-form-box {
+        margin-top: 140px;
+    }
+
+    .search-filter .left-area {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .optional-filters {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-control {
+        margin: 0;
+        flex-direction: column;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .main-control .select-box {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .text-search-box {
+        width: 100%;
+    }
+
+    .text-search-box input {
+        min-width: 97%;
+    }
+
+    .filter-box .btn {
+        width: 100%;
+        text-align: left;
+    }
+
+    .search-filter .filter-box {
+        margin-bottom: 7px;
+    }
+
+    .filter-box .filter-dropdown {
+        z-index: 999;
+        width: 100%;
+        margin-top: 2px;
+    }
+
+    .search-mobile-head {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        border: 1px solid #111;
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mobile-filter-switcher {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .search-filter {
+        position: fixed;
+        top: 0;
+        background: #fff;
+        margin: 0;
+        border-radius: 0;
+        padding-top: 40px;
+        right: -90%;
+        width: 90%;
+        height: 100vh;
+        flex-direction: column;
+        transition: all .3s linear;
+    }
+
+    .search-filter.show {
+        right: 0;
+    }
+
+    .cities-nummed-area {
+        padding: 5px;
+    }
+
+    .search-result-count {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .cities-nummed-area ul.cna-list li a {
+        font-size: 10px;
+    }
+
+    .cities-nummed-area ul.cna-list {
+        column-gap: 5px;
+        row-gap: 5px;
+    }
+
+
+    .show-projects-by {
+        display: none;
+    }
+
+    .filter-box .btn {
+        padding: 12px;
+        background: #f9f9f9;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .more-filters-box .btn {
+        padding: 13px;
+        width: 100%;
+        background: #f9f9f9;
+    }
+
+    .show-map-btn button.btn {
+        padding: 13px;
+        width: 100%;
+        background: #f9f9f9;
+    }
+
+    .right-area {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .page-navigation {
+        display: none;
+    }
+
+    .project-info-footer ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+    }
+
+    ul.amenities-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .reviews-shorts-title h5 {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    ul.reviews-shorts-list li>b {
+        font-size: 12px;
+    }
+
+    .rsl-icon svg {
+        width: 30px;
+        height: 30px;
+        padding: 4px;
+    }
+
+    .locality-places ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .developer-projects-tabs {
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    .developer-projects-tabs .dp-tabs ul li {
+        padding: 0 3px;
+    }
+
+    .developer-projects-tabs .dp-tabs ul {
+        column-gap: 3px;
+    }
+
+    ul.reviews-shorts-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 20px;
+    }
+
+    .locality_guide .g4item {
+        display: none;
+    }
+
+    .faq-title h3 {
+        font-size: 12px;
+    }
+
+    .faq-content p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    .project-properties-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+    }
+
+    .project-section-title h4 {
+        font-size: 16px;
+    }
+
+    section.project-properties {
+        margin-top: 20px;
+        background: #fff;
+        border: 1px solid #9994;
+        border-radius: 8px;
+    }
+
+    section.project-properties .project-section-title {
+        padding: 30px 0 20px 30px;
+    }
+
+    .grid-item {
+        width: 100%;
+        height: 220px;
+        margin-bottom: 6px;
+    }
+
+    .grid-item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .project-sidebar {
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    .grid-images .col-md-6:last-of-type {
+        display: none;
+    }
+
+    #main.single-project section {
+        padding: 15px;
+    }
+
+    .project-shorts {
+        display: none;
+    }
+
+    .project-info-content h1.project-title {
+        margin-bottom: 10px;
+    }
+
+    ul.feats-list {
+        grid-template-columns: 1fr 1fr;
+        padding-top: 0;
+        padding-bottom: 5px;
+    }
+
+    .project-section-title {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        flex-direction: column;
+        align-items: baseline;
+        row-gap: 5px;
+    }
+
+    section.project-description p {
+        font-size: 13px;
+    }
+
+    .iav-span span {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .iav-span {
+        width: 70%;
+        text-align: center;
+        flex-direction: column;
+    }
+
+
+    .spec-tabs ul li {
+        padding: 2px 5px;
+        font-size: 13px;
+    }
+
+    .fpc-details {
+        column-gap: 20px;
+    }
+
+    .g4item .grid-item {
+        height: 126px;
+        margin: 0;
+    }
+
+    .project-info-content h1.project-title {
+        font-size: 17px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 540px) {
+    body {
+        .tileBox .tileFigure {
+            margin: 0 -9px;
+            width: auto;
+        }
+
+        .fpc-tabs .fpc-item {
+            width: 100%;
+        }
+
+        .tileBox .tileFlexBox {
+            display: block;
+            overflow: hidden;
+        }
+
+        .tileBox .projectName {
+            font-size: 14px;
+        }
+
+        .tileBox .tileFigure .img-responsive {
+            width: 100%;
+        }
+
+        .tileBox .tagTypeBox .tagType {
+            font-size: 12px;
+        }
+
+        .tileBox .tileTagBox {
+            left: 9px;
+            bottom: 36px;
+            right: 9px;
+        }
+
+        .tileBox .tileShareBox {
+            right: 15px;
+            top: 5px;
+        }
+
+        .tileBox .shareBox,
+        .tileBox .shortListBox {
+            width: 34px;
+            height: 34px;
+        }
+
+        .tileBox .tilebody {
+            padding: 12px 15px 0;
+            margin-top: -30px;
+            position: relative;
+            background: #fff;
+        }
+
+        .tileBox .tileFigureBody {
+            width: 100%;
+        }
+
+        .tileBox .locationName {
+            font-size: 10px;
+        }
+
+        .tileBox .price {
+            font-size: 14px;
+        }
+
+        .tileBox .shortInfoSec {
+            padding: 7px 13px 7px 55px;
+            min-height: inherit;
+        }
+
+        .tileBox .shortInfoSec .ico-project-size {
+            background-size: 236px;
+            background-position: -39px -2px;
+        }
+
+        .tileBox .shortInfoSec em {
+            width: 32px;
+            height: 32px;
+        }
+
+        .tileBox .shortInfoSec ul.value,
+        .tileBox .shortInfoSec .label {
+            font-size: 10px;
+        }
+
+        .tileBox .shortInfoSec .ico-config {
+            background-size: 236px;
+            background-position: -74px -2px;
+        }
+
+        .tileBox .listingWithCta {
+            display: block;
+        }
+
+        .tileBox .tileDesc {
+            margin-top: 0;
+            font-size: 12px;
+        }
+
+        .tileBox .tileDesc~.ctaBox {
+            margin-top: 12px;
+        }
+
+        .tileBox .listingCardBox,
+        .tileBox .ctaBox {
+            width: 100%;
+        }
+
+        .tileBox .ctaBox .btn {
+            width: 100%;
+            font-size: 12px;
+        }
+    }
+}
+
+@media (min-width: 789px) {
+    .mobile-only {
+        display: none;
+    }
+}
